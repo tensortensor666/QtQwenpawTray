@@ -1,0 +1,30 @@
+# Build outputs
+build/
+dist/
+packaging/stage/
+
+# Local tooling
+.agents/
+.vs/
+.vscode/
+.idea/
+CMakeUserPresets.json
+
+# Compiler and debugger artifacts
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.exp
+*.lib
+*.dll
+*.exe
+
+# Runtime logs
+logs/
+*.log
+*.log.*
+
+# OS noise
+Thumbs.db
+.DS_Store
